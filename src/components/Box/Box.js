@@ -1,6 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { useSpring, a } from 'react-spring/three';
-import { useRender } from 'react-three-fiber';
+import React, { useRef, useState } from 'react';
+import { a, useSpring } from 'react-spring/three';
 
 const Box = () => {
   const meshRef = useRef();

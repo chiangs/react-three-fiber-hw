@@ -15,6 +15,9 @@ const Controls = () => {
     <orbitControls
       ref={orbitRef}
       args={[camera, gl.domElement]}
+      maxPolarAngle={Math.PI / 2.5}
+      minDistance={2}
+      maxDistance={100}
       autoRotate
       enableDamping
     />
